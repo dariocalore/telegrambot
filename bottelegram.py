@@ -16,7 +16,7 @@ def on_chat_message(msg):
         else:
             bot.sendMessage(chat_id, 'Mi spiace, non capisco')
 
-TOKEN = '747184244:AAG9hvy8eF2wOWNvfnRZ5SA5yeVpCGk9Alk'
+TOKEN = 'YOUR TOKEN'
 
 bot = telepot.Bot(TOKEN)
 bot.message_loop(on_chat_message)
